@@ -23,10 +23,8 @@ class Readfile:
 
     def _combine_data(self):
         for line in self.text_neg:
-            print(line)
             self.text_all.append(line)
         for line in self.text_pos:
-            print(line)
             self.text_all.append(line)
 
     def _extract_features(self, index):
